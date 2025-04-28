@@ -126,6 +126,6 @@ class ChatViewModel @Inject constructor(
 
     override fun onCleared() {
         super.onCleared()
-        socketService.disconnect()
+         socketService.disconnect()
     }
 } 
